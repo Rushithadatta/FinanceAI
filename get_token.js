@@ -4,7 +4,7 @@ const axios = require('axios');
 const getAuthToken = async () => {
   console.log('🔑 Getting Auth Token for Chatbot...\n');
   
-  const baseURL = 'http://localhost:5000/api';
+  const baseURL = 'https://expense-tracker-backend.onrender.com/api';
   
   const testUser = {
     mobile: '9876543210',

@@ -4,7 +4,7 @@ const axios = require('axios');
 const createTestUser = async () => {
   console.log('👤 Creating Test User...\n');
   
-  const baseURL = 'http://localhost:5000/api';
+  const baseURL = 'https://expense-tracker-backend.onrender.com/api';
   
   const testUser = {
     name: 'Test User',

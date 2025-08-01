@@ -4,7 +4,7 @@ const axios = require('axios');
 const testLogin = async () => {
   console.log('🧪 Testing Backend Login API...\n');
   
-  const baseURL = 'http://localhost:5000/api';
+  const baseURL = 'https://expense-tracker-backend.onrender.com/api';
   
   // Test server connection
   try {
