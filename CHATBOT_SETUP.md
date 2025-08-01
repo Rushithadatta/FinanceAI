@@ -56,7 +56,7 @@ This enhanced expense tracker now includes an AI-powered conversational chatbot 
    IBM_WATSONX_API_KEY=your_actual_api_key_here
    IBM_WATSONX_PROJECT_ID=your_actual_project_id_here
    IBM_WATSONX_URL=https://us-south.ml.cloud.ibm.com
-   BACKEND_API_URL=http://localhost:5000
+   BACKEND_API_URL=https://finance-backend-zncc.onrender.com
    STREAMLIT_SERVER_PORT=8501
    STREAMLIT_SERVER_ADDRESS=localhost
    ```
@@ -125,7 +125,7 @@ This enhanced expense tracker now includes an AI-powered conversational chatbot 
 ## Application URLs
 
 - **Main App**: http://localhost:3000
-- **Backend API**: http://localhost:5000
+- **Backend API**: https://finance-backend-zncc.onrender.com
 - **AI Chatbot**: http://localhost:8501
 
 ## Features of the AI Chatbot

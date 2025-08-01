@@ -9,7 +9,7 @@ const testLogin = async () => {
   // Test server connection
   try {
     console.log('1. Testing server connection...');
-    const response = await axios.get('http://localhost:5000/api/health');
+    const response = await axios.get('https://finance-backend-zncc.onrender.com/api/health');
     console.log('✅ Server is running');
     console.log('   Health check:', response.data.message);
   } catch (error) {

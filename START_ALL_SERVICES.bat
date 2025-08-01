@@ -42,7 +42,7 @@ echo 🎉 ALL SERVICES STARTED!
 echo ============================================
 echo.
 echo 📱 Frontend (React):     http://localhost:3000
-echo 🔧 Backend (Node.js):    http://localhost:5000  
+echo 🔧 Backend (Node.js):    https://finance-backend-zncc.onrender.com 
 echo 🤖 AI Chatbot (Groq):    http://localhost:8503
 echo.
 echo 🔑 Test Login Credentials:
