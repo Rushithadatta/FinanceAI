@@ -31,3 +31,4 @@ build/
 .next/
 coverage/
 .vscode/
+.env
