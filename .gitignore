@@ -32,3 +32,4 @@ build/
 coverage/
 .vscode/
 .env
+chatbot/conda-requirements.txt
