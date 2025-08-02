@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create axios instance with base URL and default config
 const api = axios.create({
-  baseURL: 'https://finance-backend-zncc.onrender.com' || 'http://localhost:5000/api',
+  baseURL: process.env.REACT_APP_API_URL || 'https://finance-backend-zncc.onrender.com/api',
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json',
