@@ -20,7 +20,7 @@ load_dotenv()
 
 class ExpenseChatbot:
     def __init__(self):
-        self.backend_url = os.getenv('BACKEND_API_URL', 'http://localhost:5000')
+        self.backend_url = os.getenv('BACKEND_API_URL', 'https://finance-backend-zncc.onrender.com')
         self.setup_huggingface()
         self.setup_groq()
         self.setup_watson()
