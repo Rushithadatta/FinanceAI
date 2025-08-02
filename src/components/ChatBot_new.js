@@ -9,7 +9,7 @@ const ChatBot = () => {
   const openStreamlitChatbot = () => {
     if (token) {
       // Pass token as URL parameter to Streamlit app
-      const streamlitUrl = `http://localhost:8502?token=${encodeURIComponent(token)}`;
+      const streamlitUrl = `https://chatbot-60tp.onrender.com=${encodeURIComponent(token)}`;
       window.open(streamlitUrl, '_blank');
     } else {
       alert('Please login first to use the AI Assistant');
